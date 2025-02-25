@@ -23,9 +23,15 @@ Feel free to explore my repositories and, if you’re interested, get in touch f
 
 ## 📊 GitHub Stats
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AbdeljalilOtman&show_icons=true&theme=radical)](https://github.com/AbdeljalilOtman)
+![AbdeljalilOtman's Stats](https://github-readme-stats.vercel.app/api?username=AbdeljalilOtman&theme=blueberry&show_icons=true&hide_border=false&count_private=true)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AbdeljalilOtman&layout=compact&theme=radical)](https://github.com/AbdeljalilOtman)
+![AbdeljalilOtman's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AbdeljalilOtman&theme=blueberry&show_icons=true&hide_border=false&layout=compact)
+
+<img src="https://raw.githubusercontent.com/AbdeljalilOtman/AbdeljalilOtman/output/snake.svg" alt="Snake animation" />
+
+###
+
+
 
 ## 🤝 Let's Connect
 
