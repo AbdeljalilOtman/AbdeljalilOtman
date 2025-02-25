@@ -9,9 +9,9 @@ I've been diving deep into several exciting projects and contributing to open so
 
 ## 🛠 Technologies & Tools
 
-- **Languages:** Python, JavaScript, *[add more as needed]*
-- **Frameworks & Libraries:** React, Node.js, *[add more as needed]*
-- **Tools & Platforms:** Git, Docker, *[add more as needed]*
+- **Languages:** Python, JavaScript, Java, Css, Html.
+- **Frameworks & Libraries:** Vue js, Node.js. 
+- **Tools & Platforms:** Git, Docker.
 
 ## 🚀 Projects & Contributions
 
@@ -30,9 +30,8 @@ Feel free to explore my repositories and, if you’re interested, get in touch f
 ## 🤝 Let's Connect
 
 I'm always open to discussing new projects, sharing ideas, or collaborating on innovative solutions. You can reach me at:
-- **Email:** [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **Twitter:** [@yourhandle](https://twitter.com/yourhandle)
+- **Email:** [Abdeljalil.Otman@um6p.ma](mailto:Abdeljalil.Otman@um6p.ma)
+- **LinkedIn:** [abdeljalil otman]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/abdeljalil-otman-2825a51a5/))
 
 Thanks for stopping by, and happy coding!
 
