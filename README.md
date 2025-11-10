@@ -15,9 +15,9 @@
 ---
 
 ## 🚀 Quick snapshot
-- 🔭 Currently: **<short description of current AI project or research — e.g., "Building an edge ML intrusion detection system">**  
-- 🌱 Learning: **<next topics — e.g., "LLMs, deep RL, model interpretability">**  
-- 🧩 Strengths: ML pipelines, Python, TensorFlow/PyTorch, feature engineering, model deployment, data engineering, Go/Java backend integration  
+- 🔭 Currently: **working on an implementation of self adapting language models proposed by some researchers at MIT.**  
+- 🌱 Learning: **fine tuning and LLM functionalities**  
+- 🧩 Strengths: Python, TensorFlow/PyTorch, feature engineering, model deployment, data engineering, Go/Java backend integration  
 - 🎯 Looking for: internship / research roles in **AI / ML / Data Science**
 
 ---
@@ -41,17 +41,35 @@
 ## 📂 Featured Projects
 > Click the repo links in your pinned list for full code, README, demos.
 
-### 🔬 <Project A — short name>  
-**What:** `<one-line>` — e.g., "IoT + ML anomaly detector for network traffic"  
-**Highlights:**  
-- End-to-end pipeline: data collection → preprocessing → model training → REST API for inference  
-- Model: `<model name>` (accuracy: `<xx%>` / AUC: `<xx>`)  
-- Deployed with: `Flask` / `FastAPI` + `Docker`  
-**Demo / Visual:**  
-`![demo](./assets/project-a-demo.gif)` *(replace with real GIF or screenshot)*
+## 🧠 **Mini Self-Adapting Language Model (SEAL-Inspired) for Low-End Hardware**
 
+**What:**
+An end-to-end **self-adapting language model** pipeline inspired by the SEAL (Self-Adapting Language Models) paper — implemented to run efficiently on **low-end hardware**.
+
+**Highlights:**
+
+* 🔄 **Full adaptive learning loop**:
+
+  1. Baseline model evaluation (Exact Match / F1)
+  2. Teacher-generated self-edits (DeepSeek via OpenRouter API)
+  3. LoRA fine-tuning on synthetic examples
+  4. Automatic ΔF1 analysis to keep best self-edits
+* 💡 **Student–Teacher approach:** The smaller model continuously refines itself using feedback from the stronger model.
+* ⚙️ **Lightweight fine-tuning:** LoRA configuration optimized for CPU training (rank = 8, lr = 2e-5).
+* 📊 **Evaluation metrics:** Exact Match / F1 score improvement (+0.04 → +0.27 F1).
+* 🧩 **Data pipeline:** Q/A dataset generation → synthetic edits → filtered self-edits → fine-tuning.
+* ☁️ **Deployment-ready:** Model inference exposed via a simple **Flask REST API**, containerized with **Docker** for reproducibility.
+
+**Model:**
+`openai-community/gpt2` + LoRA adapters (Fine-tuned with SEAL-style self-edits)
+**Performance:**
+F1 ≈ **0.27** (↑ from 0.04) | Exact Match ≈ **0.15**
+
+### 🐍 Tech Stack
+- `Transformers`, `PEFT`, `Datasets`, `Torch`
+- `LoRA` for efficient fine-tuning
+  
 ---
-
 ### 🤖 <Project B — short name>  
 **What:** `<one-line>` — e.g., "Time-series prediction for environmental sensors"  
 **Highlights:**  
