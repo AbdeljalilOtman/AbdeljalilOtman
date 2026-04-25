@@ -105,11 +105,5 @@ F1 ≈ **0.27** (↑ from 0.04) | Exact Match ≈ **0.15**
 
 ## 📫 Contact
 - **Email:** Abdeljalil.Otman@um6p.ma  
-- **LinkedIn:** <your-linkedin-url>  
-- **Portfolio:** <your-portfolio-url>  
+- **LinkedIn:** [<your-linkedin-url> ](https://www.linkedin.com/in/abdeljalil-otman-2825a51a5/) 
 
----
-
-<p align="center">  
-  <sub>Built with ❤️ — updates frequently. Tip: add animated GIFs for your demos (put them in `/assets` and reference them above).</sub>
-</p>
