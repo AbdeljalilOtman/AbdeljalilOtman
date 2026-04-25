@@ -70,24 +70,6 @@ F1 ≈ **0.27** (↑ from 0.04) | Exact Match ≈ **0.15**
 - `LoRA` for efficient fine-tuning
   
 ---
-### 🤖 <Project B — short name>  
-**What:** `<one-line>` — e.g., "Time-series prediction for environmental sensors"  
-**Highlights:**  
-- Feature engineering for sensor drift & missing data  
-- Model explainability: SHAP plots included  
-- Notebook + reproducible scripts (see `/notebooks` and `/src`)  
-**Live demo / API:** `<link-if-deployed>`
-
----
-
-### 🧠 <Project C — short name>  
-**What:** `<one-line>` — e.g., "Chatbot / NLP project with Arabic language support"  
-**Highlights:**  
-- Custom tokenizer and dataset preprocessing  
-- Fine-tuned transformer, evaluation & error analysis included  
-- CI: GitHub Actions for unit tests and linting
-
----
 
 ## 🧭 How I Work — typical pipeline
 1. ✅ Problem definition & metric selection  
